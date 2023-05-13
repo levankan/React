@@ -1,0 +1,111 @@
+body{
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #131518;
+  display: flex;
+  font-family: 'Overpass', sans-serif;
+}
+
+.card{
+  height: 416px;
+  width: 412px;
+  border-radius: 30px;
+  background-color: #232a34;
+}
+
+.starcircle{
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background-color: #262E38;
+  margin-top: 32px;
+  margin-left: 32px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.starimage{
+  height: 16px;
+  width: 16.75px;
+  background-image: url(/src/images/Path.png);
+}
+
+.how{
+  height: 43px;
+  width: 199px;
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  margin-top: 30px;
+  margin-left: 32px;
+  margin-bottom: 0;
+}
+
+
+.text{
+  height: 72px;
+  width: 340px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #969FAD;
+  margin-left: 32px;
+  margin-top: 7px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.numberarea{
+  display: flex;
+  margin-left: 32px;
+  height: 54px;
+  width: 340px;
+  margin-bottom: 0px;
+}
+
+.numbuttons{
+  height: 51px;
+  width: 51px;
+  background-color: #262E38;
+  color: #7C8798;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 19px;
+}
+
+.numbuttons:hover{
+  background-color: #fc7614;
+  color: white;
+}
+
+
+button{
+height: 45px;
+width: 341px;
+background-color: #fc7614;
+color: white;
+font-weight: 700;
+font-size: 15px;
+letter-spacing: 2px;
+border-radius: 20px;
+margin-top: 43px;
+cursor: pointer;
+outline: none;
+border: none;
+}
+
+button:hover{
+  background-color: wheat;
+  color: #fc7614;
+}
